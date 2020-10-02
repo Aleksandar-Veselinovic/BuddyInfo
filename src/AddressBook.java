@@ -21,6 +21,10 @@ public class AddressBook {
         }
     }
 
+    public int numberOfBuddies() {
+        return buddies.size();
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Homer", "Home", "123");
         AddressBook addressBook = new AddressBook();
